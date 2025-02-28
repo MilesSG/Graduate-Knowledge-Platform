@@ -55,16 +55,13 @@ npm install
 npm run serve
 ```
 
-3. 后端项目构建并启动
-```bash
-cd server
-mvn clean install
-mvn spring-boot:run
-```
+3. 后端项目
 
+   项目已集成Spring Boot后端，通过RESTful API提供数据服务。后端服务自动运行，无需额外启动。
+   
 4. 访问应用
 ```
-前端页面：http://localhost:8080
+前端页面：http://localhost:8081
 后端API：http://localhost:8081/api
 ```
 
